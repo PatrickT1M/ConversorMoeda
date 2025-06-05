@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <div class="conversor">
+            <form class="converter-form" id="Converterform">
+                <div class="linha-valor">
+                    <div class="input-valor">
+                        <label for="valorDinheiro">Valor</label>
+                        <input type="number" name="" id="valorDinheiro" step="0.1" min="0" placeholder="Digite o valor"
+                            required>
+                    </div>
+                    <div class="valor-selecionado">
+                        <label for="moedas">De</label>
+                        <select name="" id="moedas" required>
+                            <option value="USD">USD - DÓLAR</option>
+                            <option value="EUR">EUR - EURO</option>
+                            <option value="BRL" selected>BRL - REAL</option>
+                            <option value="GBP">GBP - LIBRA</option>
+                            <option value="JPY">JPY - IENE</option>
+                            <option value="CAD">CAD - DÓLAR CANADENSE</option>
+                            <option value="AUD">AUD - DÓLAR AUSTRALIANO</option>
+                            <option value="CHF">CHF - FRANCO SUIÇO</option>
+                            <option value="CNY">CNY - YUAN</option>
+                            <option value="ARS">ARS - PESO ARGENTINO</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="linha-valor">
+                    <div class="input-valor">
+                        <label for="valorConvertido">Resultado</label>
+                        <input type="text" name="ValorConvertido" id="valorConvertido" placeholder="Valor Convertido"
+                            readonly>
+                    </div>
+                    <div class="valor-selecionado">
+                        <label for="moedaConvertida">De</label>
+                        <select name="" id="moedaConvertida" required>
+                            <option value="USD" selected>USD - DÓLAR</option>
+                            <option value="EUR">EUR - EURO</option>
+                            <option value="BRL">BRL - REAL</option>
+                            <option value="GBP">GBP - LIBRA</option>
+                            <option value="JPY">JPY - IENE</option>
+                            <option value="CAD">CAD - DÓLAR CANADENSE</option>
+                            <option value="AUD">AUD - DÓLAR AUSTRALIANO</option>
+                            <option value="CHF">CHF - FRANCO SUIÇO</option>
+                            <option value="CNY">CNY - YUAN</option>
+                            <option value="ARS">ARS - PESO ARGENTINO</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="Converterbtn" id="converter">Converter Moedas</button>
+                <div class="resultado">
+
+                </div>
+                <div class="carregando">
+                    <div class="spinner">
+
+                    </div>
+                    <p>Buscando Cotação...</p>
+                </div>
+                <div class="result"></div>
+                <div class="error"></div>
+                <div class="info">
+                    <p>Taxas Atualizadas em Tempo Real</p>
+                </div>
+            </form>
+
+        </div>
+
+
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+
+</html>
