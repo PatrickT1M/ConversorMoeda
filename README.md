@@ -8,9 +8,9 @@ Um projeto web leve e funcional, desenvolvido com **HTML**, **CSS** e **JavaScri
 
 Este conversor de moedas está hospedado no GitHub Pages e pode ser acessado diretamente pelo seu navegador, sem necessidade de qualquer instalação ou configuração:
 
-**[Link para o seu Conversor de Moedas](https://[SEU-USUARIO-DO-GITHUB].github.io/seu-repositorio/)**
+**[Link para o seu Conversor de Moedas](https://patrickt1m.github.io/ConversorMoeda/)**
 
-*(**Atenção:** Lembre-se de substituir `[SEU-USUARIO-DO-GITHUB]` pelo seu nome de usuário real no GitHub e `seu-repositorio` pelo nome exato do seu repositório para que o link funcione.)*
+
 
 ---
 
@@ -32,10 +32,6 @@ Este conversor de moedas está hospedado no GitHub Pages e pode ser acessado dir
 ---
 
 ## 📸 Demonstração
-
-*(**Sugestão:** Adicione uma imagem ou GIF do seu projeto em funcionamento aqui! Uma imagem visualiza o resultado final e torna seu README muito mais atraente.)*
-
-Para adicionar uma imagem, você pode salvá-la na pasta do seu projeto (ex: `assets/screenshot.png`) e usar o seguinte código Markdown:
 
 ![Tela Inicial do Conversor](assets/images/Tela_Inicial.png)
 ![Valor Convertido](assets/images/Valor_Convertido.png)
