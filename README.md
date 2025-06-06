@@ -38,6 +38,16 @@ Este conversor de moedas está hospedado no GitHub Pages e pode ser acessado dir
 
 ---
 
+---
+
+## 🎬 Demonstração em Vídeo (GIF)
+
+![Demonstração em GIF do Conversor](assets/images/gif/Demonstracao_gif.gif)
+
+
+
+*Um rápido vídeo mostrando o conversor em funcionamento.*
+
 ## 👨‍💻 Autor
 
 Feito com ❤️ por **Patrick T1M**
