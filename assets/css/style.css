@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(0deg, #F26F90, #F7C2BB);
+    background: linear-gradient(0deg, #BCEBCB, #F7FFF6);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-    color: #F7C2BB;
+    color: #87D68D;
     margin-bottom: 30px;
     font-size: 1.5rem;
 }
@@ -60,7 +60,7 @@ select {
     /* border: 2px solid #F26F90; */
     outline: none;
     border: .9px solid rgba(82, 82, 82, 0.096);
-    background-color: #F7C2BB;
+    background-color: #F7FFF6;
     border-radius: 12px;
     font-size: 12px;
     font-weight: 800;
@@ -70,32 +70,32 @@ select {
 input:focus,
 select:focus {
     outline: none;
-    border: 2px solid #F7C2BB;
-    border-color: #F7C2BB;
+    border: 2px solid #93B48B;
+    border-color: #93B48B;
     background-color: #ffffff;
     box-shadow: 0px 1px 27px 0px rgba(0, 0, 0, 0.11);
     transform: translateY(-2px);
 }
 
 input::placeholder {
-    color: #F26F90;
+    color: #87D68D;
 }
 
 select {
-    color: #F26F90;
+    color: #87D68D;
 }
 
 label {
     display: block;
-    color: #F26F90;
+    color: #87D68D;
     text-align: left;
     font-size: 16px;
     margin-bottom: 9px;
 }
 
 .Converterbtn {
-    background: linear-gradient(0deg, #F26F90, #F7C2BB);
-    color: #fff;
+    background: linear-gradient(0deg, #BCEBCB, #F7FFF6);
+    color: #8491A3;
     border: none;
     padding: 15px 30px;
     border-radius:16px;
@@ -117,8 +117,8 @@ label {
 }
 
 .spinner{
-    border: 3px solid #F7C2BB;
-    border-top:3px solid #F26F90;
+    border: 3px solid #F7FFF6;
+    border-top:3px solid #93B48B;
     border-radius: 50%;
     height: 30px;
     width: 30px;
@@ -139,10 +139,10 @@ label {
 }
 
 .result{
-    background: linear-gradient(0deg, #F26F90, #F7C2BB);
+    background: linear-gradient(0deg, #BCEBCB, #F7FFF6);
     padding: 20px;
     margin-top: 30px;
-    color: #fff;
+    color: #8491A3;
     font-size: 1.1rem;
     border-radius: 15px;
     font-weight: 600;
